@@ -1,38 +1,264 @@
-.App {
-  text-align: center;
+/*Base Styles*/
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.donate-btn {
+    border: solid #AF261A 3px;
+    border-radius: 10px;
+    color: white;
+    background-color: #AF261A;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 60px;
+    padding-top: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+    font-size: 3rem;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+    font-size: 2.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+    font-size: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-hero {
+    background-image: url('./images/stacy-telescope.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 10%;
 }
+
+/*BANNER*/
+.banner-img {
+    background-image: url('./images/stacy-PierPlaza.jpeg');
+    height: 500px;
+    background-position-y: -500px;
+    background-size: 100%;
+    margin: 0;
+}
+
+/*HEADER*/
+
+.nav-btns {
+    padding: 5px;
+    width: 50%;
+}
+
+
+.nav-btns li:hover {
+    border-bottom: #AF261A 2px solid;
+}
+
+
+/*HERO*/
+
+
+
+/*POSITIONS
+
+.positions-main {
+    padding: 100px 0;
+    height: 1200px;
+}
+
+}
+.positions-main {
+    padding: 100px 0;
+    height: 1200px;
+}
+
+.positions-header h3 {
+    font-style: italic;
+}
+
+.positions-container {
+    width: 50%;
+    padding: 0 100px 0 0;
+    text-align: left;
+}
+
+.positions-pic {
+    height: 500px;
+    border-radius: 5%;
+}
+
+.positions-btn {
+    margin-top: 50px;
+}
+
+.positions-text {
+    font-size: 1.5rem;
+}
+
+/*CV
+
+.cv-main {
+    width: 100%;
+    font-size: .75rem;
+}
+
+.cv-main ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.back-btn {
+    margin-top: 50px;
+}
+
+/*ABOUT
+
+.about-paragraph {
+    width: 100%;
+    font-size: 1.25rem;
+}
+
+
+.about-img {
+    height: 100%;
+}
+*/
+.about-main {
+    background-color: #143d78;
+    color: white;
+}
+
+/*ENDORSEMENTS*/
+.endorsements-main {}
+
+.endorsements-main h2 {
+    text-align: center;
+}
+
+/*.endorsements-grid {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.endorsements-item {
+    width: 45%;
+    margin: 20px;
+    padding: 20px;
+}
+
+*/
+.endorsements-item:nth-child(-n + 2) {
+    border-bottom: 4px solid #AF261A;
+    margin-bottom: 1px;
+}
+
+.endorsements-item h4 {
+    font-size: 2rem;
+}
+
+.endorsements-item h5 {
+    font-size: 1.5rem;
+}
+
+.endorse-btn {
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin: 40px auto;
+}
+
+.endorser-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.endorser-list h4 {
+    font-size: 1.25rem;
+}
+
+
+/*Laptops
+@media (min-width: 1001px) and (max-width: 1230px) {
+    html {
+        font-size: 70%;
+    }
+}
+*/
+/*iPads
+@media (min-width: 481px) and (max-width: 1000px) {
+    html {
+        font-size: 70%;
+    }
+
+    .hero-main,
+    .positions-main,
+    .about-main {
+        margin: 10px 2.5%;
+        display: block;
+        text-align: center;
+    }
+
+    .profilePic {
+        height: 500px;
+    }
+*/
+/*HEADER
+    .nav-bar {
+        margin: 10px 10%;
+    }
+*/
+/*HERO
+    .hero-main {
+        margin-bottom: 200px;
+    }
+
+    .hero-content {
+        padding-top: 10px;
+    }
+*/
+/*POSITIONS
+    .positions-main {
+        padding: 100px 0;
+        height: 100%;
+    }
+
+    .positions-main>* {
+        margin: 0 auto;
+    }
+
+    .positions-header {
+        text-align: center;
+        width: 100%;
+    }
+
+    .positions-btn {
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        text-align: center;
+    }
+*/
+/*ABOUT
+    .about-main {
+        display: block;
+        justify-content: center;
+        background-color: #143d78;
+        color: white;
+    }
+}
+
+/*Phone
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+*/

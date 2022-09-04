@@ -1,23 +1,42 @@
-import logo from './logo.svg';
 import './App.css';
 
+
+import About from './components/About'
+import Banner from './components/Banner'
+import Endorsements from './components/Endorsements'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import Positions from './components/Positions'
+import Join from './components/Join'
+
+
+import Content from './data/content'
+import {Parallax} from 'react-parallax'
+
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='header-hero'>
+      <Header />
+      <Hero />
+      </div>
+      
+      
+      <Positions 
+      props = {Content}
+      />
+      <Banner />
+
+      <About 
+      content = {Content.about}
+      />
+
+      <Endorsements 
+      props = {Content}
+      />
+
+      <Join />
     </div>
   );
 }
