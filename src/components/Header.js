@@ -15,9 +15,12 @@ export default function Header() {
                 <li>Join</li>
             </ul>
 
-            <div className="flex center items-center 
+            <div className="text-center
             h-7 bg-red-800
-            w-40 p-11
+            pt-3
+            pb-10
+            w-40 
+            rounded-md
             ">Donate</div>
 
         </header>

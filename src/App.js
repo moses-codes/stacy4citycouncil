@@ -8,35 +8,36 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Positions from './components/Positions'
 import Join from './components/Join'
-
+import Footer from './components/Footer'
 
 import Content from './data/content'
-import {Parallax} from 'react-parallax'
 
 function App() {
 
   return (
     <div className="App">
       <div className='header-hero'>
-      <Header />
-      <Hero />
+        <Header />
+        <Hero />
       </div>
-      
-      
-      <Positions 
-      props = {Content}
+
+
+      <Positions
+        props={Content}
       />
       <Banner />
 
-      <About 
-      content = {Content.about}
+      <About
+        content={Content.about}
       />
 
-      <Endorsements 
-      props = {Content}
+      <Endorsements
+        props={Content}
       />
 
       <Join />
+
+      <Footer />
     </div>
   );
 }
