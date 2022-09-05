@@ -6,76 +6,35 @@ export default function Positions(props) {
     const pageContent = props.props.positions
         .map(item => {
             return (
-                <div className='pb-10'>
+                <div className='pb-10 text-left'>
                     <h3 className='font-bold'>{item.heading}</h3>
                     <p className='text-xl'>{item.item}</p>
                 </div>
             )
         })
 
-    /*
-        const [page, setPage] = React.useState(true)
-    
-        function handleClick() {
-            setPage(prevPage => !prevPage)
-            console.log(page)
-        }
-    
-        
-        const specialLessThan = '<'
-        const cvContent = props.props.CV
-            .map(el => {
-                return (
-                    <li>
-                        <h3>{el.heading}</h3>
-                        <p>{el.item}</p>
-                    </li>
-                )
-            })
-    
-        
-    
-        const positionsPage = (
-            <div
-                exit={{ y: 100 }}
-            >
-                <h2>Stacy stands for...</h2>
-                {pageContent}
-                <div
-                    className="donate-btn positions-btn"
-                    onClick={handleClick}
-                >View CV {specialChar}  </div>
-            </div>
-        )
-    
-        const cvPage = (
-            <section className="cv-main">
-                <h2>CV</h2>
-                <ul>
-                    {cvContent}
-                </ul>
-                <div
-                    className="donate-btn positions-btn"
-                    onClick={handleClick}
-                >{specialLessThan} Back</div>
-    
-            </section>
-        )
-    */
+    const bpXs = [
+        'block',
+        'mx-0',
+        'text-center'
+    ]
+        .map(el => `xs:${el}`)
+        .join(' ')
+
     return (
         <div>
 
-            <section className="pt-16 h-screen flex justify-center mr-32">
+            <section className={"xl:pt-16 xl:h-screen xl:flex xl:justify-center xl:mr-32 " + bpXs}>
 
-                <div className='text-center w-2/4 pt-20'>
+                <div className='text-center w-2/4 pt-20 m-auto xs:w-auto'>
                     <img
-                        className="inline-block w-3/5 rounded-lg"
+                        className="inline-block w-3/5 rounded-xl pb-5"
                         src={stacyInman} />
                     <h3>"Passion and preservation for Pismo Beach."</h3>
                 </div>
 
-                <div className="w-2/4 pt-16">
-                    <h2 className="pb-10">Stacy stands for...</h2>
+                <div className="w-2/4 pt-16 m-auto xs:w-4/5">
+                    <h2 className="font-bold pb-10">Stacy stands for...</h2>
                     {pageContent}
                 </div>
             </section>

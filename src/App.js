@@ -15,9 +15,9 @@ import Content from './data/content'
 function App() {
 
   return (
-    <div className="App">
+    <div className="App relative">
       <div className='header-hero'>
-        <Header />
+        <Header className='sticky top-0' />
         <Hero />
       </div>
 

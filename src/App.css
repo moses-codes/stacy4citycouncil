@@ -34,8 +34,22 @@ h3 {
 .header-hero {
     background-image: url('./images/stacy-telescope.jpeg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 10%;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 40%;
+}
+
+.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: rgba(255, 255, 255, .9);
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 /*BANNER*/
@@ -44,6 +58,7 @@ h3 {
     height: 500px;
     background-position-y: -500px;
     background-size: 100%;
+    background-repeat: no-repeat;
     margin: 0;
 }
 
@@ -51,7 +66,7 @@ h3 {
 
 .nav-btns {
     padding: 5px;
-    width: 50%;
+    width: 90%;
 }
 
 
@@ -59,6 +74,10 @@ h3 {
     border-bottom: #AF261A 2px solid;
 }
 
+.stacyS-logo {
+    height: 85px;
+    width: 85px;
+}
 
 /*HERO*/
 
@@ -182,83 +201,3 @@ h3 {
 .endorser-list h4 {
     font-size: 1.25rem;
 }
-
-
-/*Laptops
-@media (min-width: 1001px) and (max-width: 1230px) {
-    html {
-        font-size: 70%;
-    }
-}
-*/
-/*iPads
-@media (min-width: 481px) and (max-width: 1000px) {
-    html {
-        font-size: 70%;
-    }
-
-    .hero-main,
-    .positions-main,
-    .about-main {
-        margin: 10px 2.5%;
-        display: block;
-        text-align: center;
-    }
-
-    .profilePic {
-        height: 500px;
-    }
-*/
-/*HEADER
-    .nav-bar {
-        margin: 10px 10%;
-    }
-*/
-/*HERO
-    .hero-main {
-        margin-bottom: 200px;
-    }
-
-    .hero-content {
-        padding-top: 10px;
-    }
-*/
-/*POSITIONS
-    .positions-main {
-        padding: 100px 0;
-        height: 100%;
-    }
-
-    .positions-main>* {
-        margin: 0 auto;
-    }
-
-    .positions-header {
-        text-align: center;
-        width: 100%;
-    }
-
-    .positions-btn {
-        display: block;
-        margin: 0 auto;
-        width: 150px;
-        text-align: center;
-    }
-*/
-/*ABOUT
-    .about-main {
-        display: block;
-        justify-content: center;
-        background-color: #143d78;
-        color: white;
-    }
-}
-
-/*Phone
-@media screen and (max-width: 480px) {
-    html {
-        font-size: 62.5%;
-    }
-}
-
-*/
