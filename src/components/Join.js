@@ -1,4 +1,5 @@
 import { React } from "react"
+import stacyImg from '../images/stacy-projectCrop.jpeg'
 
 export default function Join() {
 
@@ -8,11 +9,16 @@ export default function Join() {
     }
 
     return (
-        <main className="text-center">
-            <h2 className="w-auto pb-20">
-                Will you join the campaign??
-            </h2>
-            <iframe title='Join campaign form' src="https://www.cognitoforms.com/f/CQO6e9E-sEmtGc0QTWx8aQ/1" style={styles} height="820" sandbox='allow-scripts allow-same-origin' />
+        <main className="text-center stacy-win" id='join'>
+            <div>
+                <img src={stacyImg} />
+            </div>
+            <div className="campaign-form bg-white w-2/4 p-3 rounded-xl">
+                <h2 className="w-auto py-5">
+                    Help Stacy Win!
+                </h2>
+                <iframe title='Join campaign form' src="https://www.cognitoforms.com/f/CQO6e9E-sEmtGc0QTWx8aQ/1" style={styles} height="620" sandbox='allow-scripts allow-same-origin' />
+            </div>
         </main>
     )
 }

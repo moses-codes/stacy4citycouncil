@@ -22,7 +22,7 @@ export default function Positions(props) {
         .join(' ')
 
     return (
-        <div>
+        <div id='positions'>
 
             <section className={"xl:pt-16 xl:h-screen xl:flex xl:justify-center xl:mr-32 " + bpXs}>
 

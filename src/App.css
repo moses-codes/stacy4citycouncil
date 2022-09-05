@@ -12,9 +12,9 @@
     text-align: center;
     text-decoration: none;
     display: block;
-    width: 200px;
-    height: 60px;
-    padding-top: 15px;
+    width: 250px;
+    height: auto;
+    padding: 15px;
 }
 
 h1 {
@@ -147,13 +147,13 @@ h3 {
     height: 100%;
 }
 */
-.about-main {
+.about-main,
+.stacy-footer {
     background-color: #143d78;
     color: white;
 }
 
 /*ENDORSEMENTS*/
-.endorsements-main {}
 
 .endorsements-main h2 {
     text-align: center;
@@ -170,18 +170,23 @@ h3 {
     padding: 20px;
 }
 
-*/
-.endorsements-item:nth-child(-n + 2) {
-    border-bottom: 4px solid #AF261A;
-    margin-bottom: 1px;
-}
 
-.endorsements-item h4 {
-    font-size: 2rem;
-}
+
 
 .endorsements-item h5 {
     font-size: 1.5rem;
+}
+*/
+@media screen and (max-width: 768px) {
+    .endorsements-item {
+        border-bottom: 4px solid #AF261A;
+        margin-bottom: 1px;
+    }
+}
+
+.endorsements-item:nth-child(-n + 2) {
+    border-bottom: 4px solid #AF261A;
+    margin-bottom: 1px;
 }
 
 .endorse-btn {

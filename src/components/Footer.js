@@ -3,26 +3,22 @@ import StacyS from "../images/stacyS.png"
 
 export default function Header() {
     return (
-        <header className="flex justify-between items-center p-4 text-lg">
+        <footer className="stacy-footer py-5 md:text-lg xs:text-sm">
 
-            <img src={StacyS}
-                className="h-20" />
 
-            <ul className="nav-btns flex justify-between p-9">
-                <li>Positions</li>
-                <li>About</li>
-                <li>Endorsements</li>
-                <li>Join</li>
+            <ul className="flex justify-around p-9">
+                <li>
+                    <p>stacyinmanpismobeach@gmail.com</p>
+                    <p>PO Box 3009</p>
+                    <p>Shell Beach CA 93448</p>
+                </li>
+                <li className="text-right">
+                    <p>Paid for by [organization]</p>
+                    <p>&#169; 2022 Stacy Inman for City Council</p>
+                </li>
             </ul>
 
-            <div className="text-center
-            h-7 bg-red-800
-            pt-3
-            pb-10
-            w-40 
-            rounded-md
-            ">Donate</div>
 
-        </header>
+        </footer>
     )
 } 
