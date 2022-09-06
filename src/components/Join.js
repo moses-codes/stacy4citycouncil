@@ -9,8 +9,8 @@ export default function Join() {
     }
 
     return (
-        <main className="flex text-center stacy-win xs:block xl:flex" id='join'>
-            <div className="h-auto w-5/12 xs:mx-auto">
+        <main className="flex text-center stacy-win xs:block xl:flex py-20" id='join'>
+            <div className="h-auto lg:w-5/12 xs:w-full xs:px-10 xs:mx-auto">
                 <img className='h-full w-auto rounded-xl' src={stacyImg} />
             </div>
             <div className="campaign-form bg-white lg:px-10 lg:w-7/12 rounded-xl xs:mx-auto xs:w-full xs:px-2">

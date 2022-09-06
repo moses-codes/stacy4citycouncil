@@ -6,10 +6,10 @@ export default function About(props) {
     const aboutContent = props.content
 
     return (
-        <div className="about-main pb-5">
+        <div className="about-main pb-5 ">
             <section id='about' className=" lg:pt-24  lg:flex lg:justify-around lg:h-auto xs:block">
 
-                <div className="w-2/4 xs:w-full px-5
+                <div className="w-2/4 px-5 xs:w-full xs:pt-24
             ">
                     <h2
                         className="py-16 xs:text-center lg:text-left"

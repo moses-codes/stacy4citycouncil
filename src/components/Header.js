@@ -29,10 +29,10 @@ export default function Header() {
 
     const dropDownLinks = (
         <div className="ml-10 md:hidden h-full ">
-            <Link smooth to='#positions' className="block p-6 bg-gray-300">Positions</Link>
-            <Link smooth to='#about' className="block p-6 bg-gray-300" >About</Link>
-            <Link smooth to='#endorsements' className="block p-6 bg-gray-300 ">Endorsements</Link>
-            <Link smooth to='#join' className="block p-6 bg-gray-300 ">Join</Link>
+            <Link onClick={handleToggle} smooth to='#positions' className="block p-6 bg-gray-300">Positions</Link>
+            <Link onClick={handleToggle} smooth to='#about' className="block p-6 bg-gray-300" >About</Link>
+            <Link onClick={handleToggle} smooth to='#endorsements' className="block p-6 bg-gray-300 ">Endorsements</Link>
+            <Link onClick={handleToggle} smooth to='#join' className="block p-6 bg-gray-300 ">Join</Link>
         </div >
     )
 

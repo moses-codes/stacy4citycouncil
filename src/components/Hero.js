@@ -4,10 +4,10 @@ export default function Hero() {
     const [donateOn, setDonateOn] = useState(false)
 
     const donateWindow = (
-        <div className="xl:pl-36 xs:p-0">
+        <div className="xl:pl-36 xs:p-0 ">i
             <iframe src="https://donorbox.org/embed/stacy-inman-for-city-council"
                 name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%"
-                className="xs:p:0"
+                className="xs:p:0 mx-auto"
             >
             </iframe>
         </div >

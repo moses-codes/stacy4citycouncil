@@ -24,7 +24,7 @@ export default function Positions(props) {
     return (
         <div id='positions'>
 
-            <section className={"xl:pt-16 xl:h-screen xl:flex xl:justify-center xl:mr-32 " + bpXs}>
+            <section className={"pb-20 xl:pt-16 l:h-screen xl:flex xl:justify-center xl:mr-32 " + bpXs}>
 
                 <div className='text-center w-2/4 pt-20 m-auto xs:w-auto'>
                     <img

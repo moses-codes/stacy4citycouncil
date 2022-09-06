@@ -3,6 +3,7 @@ import './App.css';
 
 import About from './components/About'
 import Banner from './components/Banner'
+import BannerTwo from './components/BannerTwo'
 import Endorsements from './components/Endorsements'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -12,7 +13,6 @@ import Footer from './components/Footer'
 
 import Content from './data/content'
 import { BrowserRouter } from 'react-router-dom';
-import { HashLink as Link } from 'react-router-hash-link'
 
 function App() {
 
@@ -38,6 +38,7 @@ function App() {
         <Endorsements
           props={Content}
         />
+        <BannerTwo />
 
         <Join />
 
