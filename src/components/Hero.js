@@ -28,7 +28,7 @@ export default function Hero() {
 
             <button className="block w-auto text-2xl xl:mt-32 xl:ml-36 text-white bg-red-700 py-2 px-10 rounded-xl xs:mx-auto xs:mt-40"
                 onClick={handleClick}
-            >Help Stacy Win!</button>
+            >Click to Donate</button>
 
             {donateOn ? donateWindow : ''}
 

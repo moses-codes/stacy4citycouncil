@@ -9,11 +9,11 @@ export default function Join() {
     }
 
     return (
-        <main className="text-center stacy-win" id='join'>
-            <div>
-                <img src={stacyImg} />
+        <main className="flex text-center stacy-win xs:block xl:flex" id='join'>
+            <div className="h-auto w-5/12 xs:mx-auto">
+                <img className='h-full w-auto rounded-xl' src={stacyImg} />
             </div>
-            <div className="campaign-form bg-white w-2/4 p-3 rounded-xl">
+            <div className="campaign-form bg-white lg:px-10 lg:w-7/12 rounded-xl xs:mx-auto xs:w-full xs:px-2">
                 <h2 className="w-auto py-5">
                     Help Stacy Win!
                 </h2>
