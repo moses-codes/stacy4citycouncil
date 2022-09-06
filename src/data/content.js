@@ -11,7 +11,7 @@ const content = {
         },
         {
             heading: 'Parking and Traffic',
-            item: "We must protect and enhance our parking assets in our residential areas and our downtown and improve the flow of traffic.",
+            item: "We must protect and enhance our parking assets in our residential areas and our downtown and improve the flow of traffic. I will work to have residents obtain free parking in the downtown area.",
         },
         {
             heading: 'Maintain and Enhance Our Quality of Life',
@@ -34,7 +34,7 @@ const content = {
         {
             heading: 'Thing 3',
             item: "Egestas maecenas pharetra convallis posuere morbi leo urna. Nunc pulvinar sapien et ligula ullamcorper. Convallis posuere morbi leo urna molestie at elementum eu. Arcu dictum varius duis at. Scelerisque eu ultrices vitae auctor eu. Scelerisque viverra mauris in aliquam sem fringilla ut morbi.",
-        },{
+        }, {
             heading: 'Thing 4',
             item: "Erat velit scelerisque in dictum non. Cursus eget nunc scelerisque viverra mauris in aliquam. Arcu ac tortor dignissim convallis aenean. Id aliquet lectus proin nibh. Suspendisse potenti nullam ac tortor vitae purus. Facilisis sed odio morbi quis commodo odio. Facilisis gravida neque convallis a cras semper auctor.",
         },
@@ -52,32 +52,32 @@ const content = {
             'Stacy’s Mom was a teacher who taught her to care for others, and serve them.  Stacy’s Father was a computer engineer which taught her how to make things work and create solutions.',
             'Pismo needs a Council Member who will help the community,  the residents and the local business thrive, while welcoming visitors and at the same time keeping our City delightful. One who will preserve our quality of life while  and welcoming nature to our Classic California City.'
         ],
-        stinger:'Stacy’s characteristics of hard work, expertise and energy will strengthen our amazing City. ',
+        stinger: 'Stacy’s characteristics of hard work, expertise and energy will strengthen our amazing City. ',
     },
     endorsements: [
         {
-            quote:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.',
-            author:'Kyle Robertson',
+            quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.',
+            author: 'Kyle Robertson',
         },
         {
-            quote:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.',
-            author:'Robert Lyle',
+            quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.',
+            author: 'Robert Lyle',
         },
         {
-            quote:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.',
-            author:'Gordon Raleigh',
+            quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.',
+            author: 'Gordon Raleigh',
         },
         {
-            quote:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.',
-            author:'Name Namely',
+            quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.',
+            author: 'Name Namely',
         },
     ],
     endorsementsList: [
-        'Sheila Blake ',
-        'Steve and Cathy Puglisi',
         'Effie McDermott',
-        'Mark & Sharyl Naftal',
+        'Sheila Blake ',
         'Adam Werner',
+        'Mark & Sharyl Naftal',
+        'Steve and Cathy Puglisi',
         'Tammy Paster',
         'Mike & Diane Farley',
         'Kevin Morrison',

@@ -8,13 +8,14 @@ export default function Header() {
 
             <ul className="flex justify-around p-9">
                 <li>
+                    <p >Stacy Inman</p>
                     <p>stacyinmanpismobeach@gmail.com</p>
                     <p>PO Box 3009</p>
                     <p>Shell Beach CA 93448</p>
                 </li>
                 <li className="text-right">
-                    <p>Paid for by [organization]</p>
-                    <p>&#169; 2022 Stacy Inman for City Council</p>
+                    <p>Paid for by Stacy Inman for City Council 2022</p>
+                    <p>&#169; Stacy Inman for City Council 2022 </p>
                 </li>
             </ul>
 
