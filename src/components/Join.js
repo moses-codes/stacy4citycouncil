@@ -13,9 +13,9 @@ export default function Join() {
     return (
         <footer>
             <div className="flex text-center stacy-win xs:block xl:flex py-20" id='join'>
-                <div className="h-full lg:w-5/12 xs:w-auto xs:h-1/4 xs:px-10 xs:mx-auto">
-                    <img className='h-full w-auto rounded-xl' src={stacyImg} alt='Stacy poses at a construction site' />
-                </div>
+
+                <img className='inline-block w-3/5 rounded-xl m-12' src={stacyImg} alt='Stacy poses at a construction site' />
+
                 <div className="campaign-form bg-white lg:px-10 lg:w-7/12 rounded-xl xs:mx-auto xs:w-full xs:px-2">
                     <h2 className="w-auto py-5">
                         Help Stacy Win!
