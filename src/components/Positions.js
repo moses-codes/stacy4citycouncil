@@ -21,7 +21,7 @@ export default function Positions(props) {
         .join(' ')
 
     return (
-        <div id='positions'>
+        <div className='md:mt-0 xs:mt-28' id='positions'>
 
             <section className={"pb-20 xl:pt-16 l:h-screen xl:flex xl:justify-center xl:mr-32 " + bpXs}>
 
