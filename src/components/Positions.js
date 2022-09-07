@@ -1,5 +1,6 @@
 import React from 'react'
 import stacyInman from "../images/stacy-close.jpeg"
+import FadeInSection from './FadeInSection'
 export default function Positions(props) {
     const pageContent = props.props.positions
         .map(item => {
@@ -27,15 +28,16 @@ export default function Positions(props) {
                 <div className='text-center w-2/4 pt-20 m-auto xs:w-auto'>
                     <img
                         alt='Stacy poses against a tree.'
-                        className="inline-block w-3/5 rounded-xl pb-5"
+                        className="inline-block w-3/5 rounded-xl mb-5"
                         src={stacyInman} />
                     <h3>"Passion and preservation for Pismo Beach."</h3>
                 </div>
-
-                <div className="w-2/4 pt-16 m-auto xs:w-4/5">
-                    <h2 className="font-bold pb-10">Stacy stands for...</h2>
-                    {pageContent}
-                </div>
+                <FadeInSection>
+                    <div className="w-2/4 pt-16 m-auto xs:w-4/5">
+                        <h2 className="font-bold pb-10">Stacy stands for...</h2>
+                        {pageContent}
+                    </div>
+                </FadeInSection>
             </section>
 
         </div>

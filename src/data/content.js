@@ -55,21 +55,21 @@ const content = {
         stinger: 'Stacy’s characteristics of hard work, expertise and energy will strengthen our amazing City. ',
     },
     endorsements: [
+
         {
-            quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.',
-            author: 'Kyle Robertson',
+            quote: 'Stacy is one of the most principled people I know.  She will bring a level of honesty and transparency to the Council which will ensure that you know she is looking out for your interests rather than simply her own. ',
+            author: 'Adam Werner',
         },
         {
-            quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.',
-            author: 'Robert Lyle',
+            quote: 'I’m supporting Stacy Inman for City Council. I got to know her when she served several years on the Planning Commission.  She always did her homework, listened to the public and made intelligent decisions.  She will bring her experience to the City Council and be responsive to the citizens. ',
+            author: 'Effie McDermott',
+        }, {
+            quote: "What is important to me ... in endorsing a candidate, is the individual’s ability and willingness to engage and listen to the opposing point of view. Stacy Inman is outstanding in this regard and along with her proven ability to Chair the Commission, maintain civility and decorum and bring thoughtful decision making to the political process, she is at the top of the list for qualified candidates for this elected position.",
+            author: 'Steve & Kathy Puglisi',
         },
         {
-            quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.',
-            author: 'Gordon Raleigh',
-        },
-        {
-            quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.',
-            author: 'Name Namely',
+            quote: 'Stacy is thorough and does her homework.  She is fair and loves Pismo Beach.  She would be a great asset on the Council.  ',
+            author: 'Kathy Smalarz',
         },
     ],
     endorsementsList: [
@@ -77,7 +77,7 @@ const content = {
         'Sheila Blake ',
         'Adam Werner',
         'Mark & Sharyl Naftal',
-        'Steve and Cathy Puglisi',
+        'Steve & Kathy Puglisi',
         'Tammy Paster',
         'Mike & Diane Farley',
         'Kevin Morrison',
