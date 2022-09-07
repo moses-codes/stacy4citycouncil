@@ -79,8 +79,8 @@ h3 {
 }
 
 
-.nav-btns li:hover {
-    border-bottom: #AF261A 2px solid;
+.navlink:hover {
+    text-decoration: underline solid #AF261A;
 }
 
 .stacyS-logo {

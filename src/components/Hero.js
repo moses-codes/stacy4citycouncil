@@ -5,6 +5,7 @@ export default function Hero() {
 
     const donorbox = (
         <iframe src="https://donorbox.org/embed/stacy-inman-for-city-council"
+            title='donateWindow'
             name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%"
             className="xs:p:0 mx-auto"
         >
@@ -21,7 +22,7 @@ export default function Hero() {
         setDonateOn(prevSet => !prevSet)
     }
     return (
-        <main className={"h-screen block m-0"}>
+        <main id='hero' className={"h-screen block m-0"}>
             <div className={"xl:pl-36 pt-44"}>
                 <h1 className="xs:text-6xl md:text-8xl mb-5 xl:text-left xs:w-auto xs:text-center xs:text-white">Stacy Inman</h1>
                 <h3
