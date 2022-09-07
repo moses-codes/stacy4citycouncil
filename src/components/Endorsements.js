@@ -42,7 +42,7 @@ export default function Endorsements(props) {
         </div>
     )
     return (
-        <section id='endorsements' className='endorsements-main py-32 '>
+        <section id='endorsements' className='endorsements-main py-32 border-b'>
             <h2 className="mb-15">Endorsements</h2>
             <div className="lg:flex xs:block flex-wrap justify-around px-12 py-12 border-b">
                 {pageContent}
