@@ -33,7 +33,7 @@ export default function About(props) {
                 </FadeInSection>
                 <img
                     alt="Stacy Inman posing on Pismo Beach"
-                    className="about-img p-10 rounded-md my-auto lg:h-full lg:w-5/12 xs:h-full xs:mx-auto lg:block"
+                    className="about-img p-10 rounded-md my-auto lg:h-full lg:w-5/12 xs:h-1/4 xs:mx-auto lg:block"
                     src={stacyInman} />
 
             </section>
