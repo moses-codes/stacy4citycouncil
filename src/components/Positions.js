@@ -1,11 +1,10 @@
 import React from 'react'
-import { motion, AnimatePresence } from "framer-motion"
 import stacyInman from "../images/stacy-close.jpeg"
 export default function Positions(props) {
     const pageContent = props.props.positions
         .map(item => {
             return (
-                <div className='pb-10 text-left'>
+                <div key={item.item} className='pb-10 text-left positionItems'>
                     <h3 className='font-bold'>{item.heading}</h3>
                     <p className='text-xl'>{item.item}</p>
                 </div>
@@ -27,6 +26,7 @@ export default function Positions(props) {
 
                 <div className='text-center w-2/4 pt-20 m-auto xs:w-auto'>
                     <img
+                        alt='Stacy poses against a tree.'
                         className="inline-block w-3/5 rounded-xl pb-5"
                         src={stacyInman} />
                     <h3>"Passion and preservation for Pismo Beach."</h3>

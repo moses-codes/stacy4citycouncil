@@ -1,7 +1,6 @@
 import { React, useEffect, useState } from "react"
 import StacyS from "../images/stacyS.png"
 import { HiMenu } from 'react-icons/hi';
-import { Router, BrowserRouter } from 'react-router-dom'
 import { NavHashLink as Link } from "react-router-hash-link";
 
 export default function Header() {
@@ -20,11 +19,11 @@ export default function Header() {
     }
 
 
-    //Method that will fix header after a specific scrollable 
+
     const isSticky = (e) => {
         const header = document.querySelector('.header-section');
         const scrollTop = window.scrollY;
-        scrollTop >= 250 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
+        //scrollTop >= 250 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
     };
 
     const dropDownLinks = (
@@ -37,16 +36,18 @@ export default function Header() {
     )
 
     return (
-        <header className=" h-24 text-center xs:px-4 text-lg w-full is-sticky">
+        <header className=" h-24 text-center xs:px-4 text-lg w-full is-sticky"
+        >
 
             <ul className="h-24 nav-btns text-2xl mx-auto flex md:justify-around xs:justify-start">
-                <li><img src={StacyS}
-                    className="stacyS-logo" /></li>
-                <Link to='#positions' smooth className="pt-6 hidden md:block">
+                <Link to='#hero' smooth><img src={StacyS}
+                    alt='Cursive S'
+                    className="stacyS-logo" /></Link>
+                <Link to='#positions' smooth className="pt-6 hidden md:block navlink">
                     Positions</Link>
-                <Link to='#about' smooth className="pt-6 hidden md:block">About</Link>
-                <Link to='#endorsements' smooth className="pt-6 hidden md:block">Endorsements</Link>
-                <Link to='#join' smooth className="pt-6 hidden md:block">Join</Link>
+                <Link to='#about' smooth className="pt-6 hidden md:block navlink">About</Link>
+                <Link to='#endorsements' smooth className="pt-6 hidden md:block navlink">Endorsements</Link>
+                <Link to='#join' smooth className="pt-6 hidden md:block navlink">Join</Link>
 
                 <div className="flex flex-col pt-5">
                     <button
