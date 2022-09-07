@@ -2,7 +2,6 @@ import React from 'react'
 import { motion, AnimatePresence } from "framer-motion"
 import stacyInman from "../images/stacy-close.jpeg"
 export default function Positions(props) {
-    const specialChar = '>'
     const pageContent = props.props.positions
         .map(item => {
             return (

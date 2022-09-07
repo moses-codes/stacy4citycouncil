@@ -89,73 +89,6 @@ h3 {
 }
 
 /*HERO*/
-
-
-
-/*POSITIONS
-
-.positions-main {
-    padding: 100px 0;
-    height: 1200px;
-}
-
-}
-.positions-main {
-    padding: 100px 0;
-    height: 1200px;
-}
-
-.positions-header h3 {
-    font-style: italic;
-}
-
-.positions-container {
-    width: 50%;
-    padding: 0 100px 0 0;
-    text-align: left;
-}
-
-.positions-pic {
-    height: 500px;
-    border-radius: 5%;
-}
-
-.positions-btn {
-    margin-top: 50px;
-}
-
-.positions-text {
-    font-size: 1.5rem;
-}
-
-/*CV
-
-.cv-main {
-    width: 100%;
-    font-size: .75rem;
-}
-
-.cv-main ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.back-btn {
-    margin-top: 50px;
-}
-
-/*ABOUT
-
-.about-paragraph {
-    width: 100%;
-    font-size: 1.25rem;
-}
-
-
-.about-img {
-    height: 100%;
-}
-*/
 .about-main,
 .stacy-footer {
     background-color: #143d78;
@@ -168,24 +101,6 @@ h3 {
     text-align: center;
 }
 
-/*.endorsements-grid {
-    display: flex;
-    flex-wrap: wrap;
-} 
-
-.endorsements-item {
-    width: 45%;
-    margin: 20px;
-    padding: 20px;
-}
-
-
-
-
-.endorsements-item h5 {
-    font-size: 1.5rem;
-}
-*/
 @media screen and (max-width: 768px) {
     .endorsements-item {
         border-bottom: 4px solid #AF261A;
@@ -196,22 +111,4 @@ h3 {
 .endorsements-item:nth-child(-n + 2) {
     border-bottom: 4px solid #AF261A;
     margin-bottom: 1px;
-}
-
-.endorse-btn {
-    text-align: center;
-    display: block;
-    width: 200px;
-    margin: 40px auto;
-}
-
-.endorser-list {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 500px;
-}
-
-.endorser-list h4 {
-    font-size: 1.25rem;
 }
