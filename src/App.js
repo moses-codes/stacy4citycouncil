@@ -10,6 +10,7 @@ import Hero from './components/Hero'
 import Positions from './components/Positions'
 import Join from './components/Join'
 import Footer from './components/Footer'
+import FadeInSection from './components/FadeInSection';
 
 import Content from './data/content'
 import { BrowserRouter } from 'react-router-dom';
@@ -24,23 +25,29 @@ function App() {
           <Hero />
         </div>
 
-
         <Positions
           id="positions"
           props={Content}
         />
-        <Banner />
-
+        <FadeInSection>
+          <Banner />
+        </FadeInSection>
         <About
           content={Content.about}
         />
+        <FadeInSection>
+          <Endorsements
+            props={Content}
+          />
+        </FadeInSection>
 
-        <Endorsements
-          props={Content}
-        />
-        <BannerTwo />
+        <FadeInSection>
+          <BannerTwo />
+        </FadeInSection>
 
-        <Join />
+        <FadeInSection>
+          <Join />
+        </FadeInSection>
 
         <Footer />
       </div>
