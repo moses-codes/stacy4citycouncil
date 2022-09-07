@@ -16,7 +16,7 @@ export default function Header() {
                         <p>Shell Beach CA 93448</p>
                     </li>
                 </div>
-                <li className="text-right">
+                <li className="md:text-right md:mt-0 xs:text-center xs:mt-12">
                     <p>Paid for by Stacy Inman for City Council 2022</p>
                     <p>&#169; Stacy Inman for City Council 2022 </p>
                     <p>site designed by moses-codes</p>
