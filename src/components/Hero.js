@@ -37,7 +37,7 @@ export default function Hero() {
             <button className="block w-auto 
             md:text-2xl md:mt-16 md:ml-16 xl:ml-36
             text-white bg-red-700 py-2 px-10 
-            rounded-xl xs:mx-auto xs:mt-0 xs:text-md"
+            rounded-xl xs:mx-auto xs:mt-2 xs:text-md"
                 onClick={handleClick}
             >{donateOn ? 'Hide Window' : 'Click to Donate'}</button>
             {donateOn ? donateWindow : ''}
