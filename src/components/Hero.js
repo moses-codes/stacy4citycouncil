@@ -25,19 +25,19 @@ export default function Hero() {
         <main id='hero' className={"h-screen block m-0"}>
             <div className={"xl:p-36 xs:pt-32"}>
                 <h1 className="xs:text-5xl md:text-8xl 
-                mb-5 xl:text-left xs:w-auto xs:text-center
-                xs:text-white">Stacy Inman</h1>
+                md:mb-5 xl:text-left xs:w-auto xs:text-center
+                xs:text-white xs:mb-2">Stacy Inman</h1>
                 <h3
-                    className="xs:mb-5 md:md-36 
+                    className="xs:mb-0 md:md-36 
                     xl:text-left xs:text-center md:text-3xl  
-                    xs:text-xl xs:text-white"
+                    xs:text-lg xs:text-white"
                 >For Pismo Beach City Council</h3>
             </div>
 
             <button className="block w-auto 
-            text-2xl md:mt-16 md:ml-16 xl:ml-36
+            md:text-2xl md:mt-16 md:ml-16 xl:ml-36
             text-white bg-red-700 py-2 px-10 
-            rounded-xl xs:mx-auto xs:mt-6"
+            rounded-xl xs:mx-auto xs:mt-0 xs:text-md"
                 onClick={handleClick}
             >{donateOn ? 'Hide Window' : 'Click to Donate'}</button>
             {donateOn ? donateWindow : ''}
