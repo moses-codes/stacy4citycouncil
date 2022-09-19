@@ -80,10 +80,13 @@ const content = {
         'Steve & Kathy Puglisi',
         'Tammy Paster',
         'Mike & Diane Farley',
+        'Bill Worger',
         'Kevin Morrison',
         'Carmen & Joe Bissin',
         'Kathy Smalarz',
         'Sandra Gore Nielsen',
+        'Jeff Castle',
+        'Fred Fink',
     ],
 }
 
