@@ -50,7 +50,7 @@ const content = {
             'With a Business Administration Degree from Cal Berkeley, Stacy has analyzed balance sheets and business plans and knows the ins and outs of how a City finances all of its many projects.',
             'With a Law Degree from UC Davis, Stacy has been a district attorney, a county attorney and a school district attorney, ultimately giving her great insight into a City’s needs for public safety, security and quality of life.',
             'Stacy’s Mom was a teacher who taught her to care for others, and serve them.  Stacy’s Father was a computer engineer which taught her how to make things work and create solutions.',
-            'Pismo needs a Council Member who will help the community,  the residents and the local business thrive, while welcoming visitors and at the same time keeping our City delightful. One who will preserve our quality of life while  and welcoming nature to our Classic California City.'
+            'Pismo needs a Council Member who will help the community,  the residents and the local business thrive, while welcoming visitors and at the same time keeping our City delightful. One who will preserve our quality of life while maintaining the welcoming nature of our Classic California City.'
         ],
         stinger: 'Stacy’s characteristics of hard work, expertise and energy will strengthen our amazing City. ',
     },
@@ -82,11 +82,17 @@ const content = {
         'Mike & Diane Farley',
         'Bill Worger',
         'Kevin Morrison',
+        "Shelley Malcolm",
+        "Charles Gruen",
+        "Virginia Butcher",
         'Carmen & Joe Bissin',
+        'Andrew Grow',
         'Kathy Smalarz',
-        'Sandra Gore Nielsen',
+        // 'Sandra Gore Nielsen',
         'Jeff Castle',
-        'Fred Fink',
+        'Thomas & Susan DeNatale',
+        'Carol Shaddox',
+        'Jim Long',
     ],
 }
 
