@@ -69,7 +69,7 @@ export default function Endorsements(props) {
 
             <div className="xs:block xl:flex justify-between mt-12">
                 <img src={stacySign}
-                    className='h-full rounded-xl lg:w-2/5 lg:ml:20 lg:w-5/12 xs:w-2/4 m-20 lg:mx-0 xs:mx-auto'
+                    className='h-full rounded-xl lg:w-2/5 lg:ml:20 lg:w-5/12 xs:w-2/4 m-20 xl:mx-10 xs:mx-auto'
                     alt='A lawn sign that reads vote for Stacy Inman'
                 ></img>
                 <FadeInSection className='lg:w-3/5'>
