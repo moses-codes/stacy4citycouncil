@@ -90,9 +90,9 @@ const content = {
         'Kathy Smalarz',
         // 'Sandra Gore Nielsen',
         'Jeff Castle',
-        'Thomas & Susan DeNatale',
         'Carol Shaddox',
         'Jim Long',
+        'Thomas & Susan DeNatale',
     ],
 }
 
