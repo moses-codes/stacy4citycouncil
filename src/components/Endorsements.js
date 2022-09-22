@@ -26,7 +26,9 @@ export default function Endorsements(props) {
         .map(el => {
             return (<li>
                 <h4
-                    className="text-xl pb-5"
+                    className="px-5
+                    xs:text-md xs:my-2 xs:text-center xs:block xs:w-full 
+                    lg:text-xl lg:my-5"
                 >{el}</h4>
             </li>)
         })
@@ -65,23 +67,25 @@ export default function Endorsements(props) {
                 </section>
             </FadeInSection>
 
-            <div className="lg:flex xs:block justify-center mt-12">
-
+            <div className="xs:block xl:flex justify-between mt-12">
                 <img src={stacySign}
-                    className='h-full lg:mx-20 lg:w-4/12 rounded-xl xs:w-2/4 xs:mx-auto mt-20'
+                    className='h-full rounded-xl lg:w-2/5 lg:ml:20 lg:w-5/12 xs:w-2/4 m-20 xl:mx-10 xs:mx-auto'
                     alt='A lawn sign that reads vote for Stacy Inman'
                 ></img>
-                <FadeInSection>
-                    <div>
-                        <h3 className="italic font-bold lg:text-left xs:text-center mb-6 lg:mt-0 xs:mt-10">Stacy Inman is proudly endorsed by</h3>
-                        <ul className="lg:text-left xs:text-center">
+                <FadeInSection className='lg:w-3/5'>
+                    <div className="w-7/12 mx-auto">
+                        <h3 className="italic font-bold xs:text-center mb-6 lg:mt-0 xs:mt-10">Stacy Inman is proudly endorsed by</h3>
+                        <ul className="w-full xs: block xs:text-center md:flex flex-wrap box-border justify-between">
                             {list}
                         </ul>
-                        <Link className="donate-btn text-xl mb-10 lg:mx-0 xs:mx-auto"
+                        <Link className="donate-btn text-xl mt-12 mb-12  xs:mx-auto"
                             smooth to='#join'
                         >Endorse Stacy Inman</Link>
                     </div>
                 </FadeInSection>
+
+
+
             </div>
 
         </section>
