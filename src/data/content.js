@@ -71,13 +71,21 @@ const content = {
             quote: 'Stacy is thorough and does her homework.  She is fair and loves Pismo Beach.  She would be a great asset on the Council.  ',
             author: 'Kathy Smalarz',
         },
+        {
+            quote: 'I had the privilege of serving alongside Stacy on the Pismo Planning Commission. She rose quickly to chair with her strong style of leadership. Her preparation, objectivity and diligent analysis of matters brought to her was and is top-notch. In my profession, I am the project applicant in multiple large and small jurisdictions in California, Arizona and Nevada.  Stacy would make a significant impact to any P & Z commission, City Council or even Board of Supervisors - orange or small. We are lucky to have her interest and desire to serve our beautiful City.  I wholeheartedly endorse her candidacy for City Council.',
+            author: 'Mark Naftal',
+        },
     ],
     endorsementsList: [
+        'Dawn Ortiz-Legg, District 3 County Supervisor',
+        'Jimmy Paulding, District 4 County Supervisor',
         'Effie McDermott',
-        'Sheila Blake ',
+        'Sheila Blake',
+        'International Brotherhood of Electrical Workers Local 639',
         'Adam Werner',
         'Mark & Sharyl Naftal',
         'Steve & Kathy Puglisi',
+        'Don Day, businessman',
         'Tammy Paster',
         'Mike & Diane Farley',
         'Bill Worger',
@@ -93,6 +101,9 @@ const content = {
         'Carol Shaddox',
         'Jim Long',
         'Thomas & Susan DeNatale',
+        'Xia Ha',
+        'Karl & Sue Luft',
+        'Glenn Merker',
     ],
 }
 
