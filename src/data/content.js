@@ -73,11 +73,15 @@ const content = {
         },
     ],
     endorsementsList: [
+        'Dawn Ortiz-Legg, District 3 County Supervisor',
+        'Jimmy Paulding, District 4 County Supervisor',
         'Effie McDermott',
-        'Sheila Blake ',
+        'Sheila Blake',
+        'International Brotherhood of Electrical Workers Local 639',
         'Adam Werner',
         'Mark & Sharyl Naftal',
         'Steve & Kathy Puglisi',
+        'Don Day, businessman',
         'Tammy Paster',
         'Mike & Diane Farley',
         'Bill Worger',
@@ -93,6 +97,9 @@ const content = {
         'Carol Shaddox',
         'Jim Long',
         'Thomas & Susan DeNatale',
+        'Xia Ha',
+        'Karl & Sue Luft',
+        'Glenn Merker',
     ],
 }
 

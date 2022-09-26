@@ -28,7 +28,7 @@ export default function Endorsements(props) {
                 <h4
                     className="px-5
                     xs:text-md xs:my-2 xs:text-center xs:block xs:w-full 
-                    lg:text-xl lg:my-5"
+                    lg:text-lg lg:my-5"
                 >{el}</h4>
             </li>)
         })
