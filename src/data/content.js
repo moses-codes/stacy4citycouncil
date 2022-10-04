@@ -72,7 +72,7 @@ const content = {
             author: 'Kathy Smalarz',
         },
         {
-            quote: 'I had the privilege of serving alongside Stacy on the Pismo Planning Commission. She rose quickly to chair with her strong style of leadership. Her preparation, objectivity and diligent analysis of matters brought to her was and is top-notch. In my profession, I am the project applicant in multiple large and small jurisdictions in California, Arizona and Nevada.  Stacy would make a significant impact to any P & Z commission, City Council or even Board of Supervisors - orange or small. We are lucky to have her interest and desire to serve our beautiful City.  I wholeheartedly endorse her candidacy for City Council.',
+            quote: 'I had the privilege of serving alongside Stacy on the Pismo Planning Commission. She rose quickly to chair with her strong style of leadership. Her preparation, objectivity and diligent analysis of matters brought to her was and is top-notch. In my profession, I am the project applicant in multiple large and small jurisdictions in California, Arizona and Nevada.  Stacy would make a significant impact to any P & Z commission, City Council or even Board of Supervisors - large or small. We are lucky to have her interest and desire to serve our beautiful City.  I wholeheartedly endorse her candidacy for City Council.',
             author: 'Mark Naftal',
         },
     ],
