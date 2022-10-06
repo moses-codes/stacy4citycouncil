@@ -41,7 +41,7 @@ export default function Header() {
     )
 
     return (
-        <header className=" h-24 text-center xs:px-4 text-lg w-full is-sticky rounded-md"
+        <header className=" h-24 text-center xs:px-4 text-lg w-full is-sticky"
         >
 
             <ul className="h-24 nav-btns text-2xl mx-auto flex md:justify-around xs:justify-start">

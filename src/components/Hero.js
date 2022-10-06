@@ -32,7 +32,9 @@ export default function Hero() {
                     xl:text-left xs:text-center md:text-3xl  
                     xs:text-lg xs:text-white"
                 >For Pismo Beach City Council</h3>
+                
             </div>
+
 
             <button className="block w-auto 
             md:text-2xl md:mt-16 md:ml-16 xl:ml-36
