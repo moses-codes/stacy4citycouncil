@@ -26,9 +26,9 @@ export default function Endorsements(props) {
         .map(el => {
             return (<li>
                 <h4
-                    className="px-5
+                    className="px-10
                     xs:text-md xs:my-2 xs:text-center xs:block xs:w-full 
-                    lg:text-lg lg:my-5"
+                    "
                 >{el}</h4>
             </li>)
         })
@@ -66,16 +66,16 @@ export default function Endorsements(props) {
                     </div>
                 </section>
             </FadeInSection>
-
-            <div className="xs:block xl:flex justify-between mt-12">
-                <img src={stacySign}
-                    className='h-full rounded-xl lg:w-2/5 lg:ml:20 lg:w-5/12 xs:w-2/4 m-20 xl:mx-10 xs:mx-auto'
+            <img src={stacySign}
+                    className='h-full rounded-xl lg:w-2/5 lg:ml:20 lg:w-5/12 xs:w-2/4 m-20 xl:mx-10 xs:mx-auto md:float-left'
                     alt='A lawn sign that reads vote for Stacy Inman'
                 ></img>
-                <FadeInSection className='lg:w-3/5'>
-                    <div className="w-7/12 mx-auto">
+            <div className="xs:block xl:flex justify-between mt-12">
+                
+                <FadeInSection className='lg:w-auto'>
+                    <div className="w-auto mx-auto">
                         <h3 className="italic font-bold xs:text-center mb-6 lg:mt-0 xs:mt-10">Stacy Inman is proudly endorsed by</h3>
-                        <ul className="w-full xs: block xs:text-center md:flex flex-wrap box-border justify-between">
+                        <ul className="lg:w-full xs: block xs:text-center md:flex flex-wrap box-border justify-center">
                             {list}
                         </ul>
                         <Link className="donate-btn text-xl mt-12 mb-12  xs:mx-auto"
