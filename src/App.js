@@ -12,6 +12,8 @@ import Join from './components/Join'
 import Footer from './components/Footer'
 import FadeInSection from './components/FadeInSection';
 
+import Events from './components/Events'
+
 import Content from './data/content'
 import { BrowserRouter } from 'react-router-dom';
 
@@ -24,6 +26,9 @@ function App() {
           <Header className='sticky top-0' />
           <Hero />
         </div>
+
+      
+        <Events></Events>
 
         <Positions
           id="positions"
