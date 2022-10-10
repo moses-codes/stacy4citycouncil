@@ -90,6 +90,7 @@ const content = {
         'Mike & Diane Farley',
         'Bill Worger',
         'Kevin Morrison',
+        'Fred Fink',
         "Shelley Malcolm",
         "Charles Gruen",
         "Virginia Butcher",
@@ -104,6 +105,7 @@ const content = {
         'Xia Ha',
         'Karl & Sue Luft',
         'Glenn Merker',
+        'Laura Longo'
     ],
 }
 
