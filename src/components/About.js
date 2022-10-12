@@ -1,5 +1,5 @@
 import React from "react"
-import stacyInman from "../images/stacy-closeShot2.jpeg"
+import stacyInman from "../images/stacy-closeShot.jpg"
 import FadeInSection from "./FadeInSection";
 import { NavHashLink as Link } from "react-router-hash-link";
 

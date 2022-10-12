@@ -32,11 +32,17 @@ h3 {
 }
 
 .header-hero {
-    background-image: url('./images/stacy-telescope.jpeg');
+    background-image: url('./images/stacy-beach.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-position-y: 40%;
+    background-position-y: -20%;
+}
+
+@media screen and (max-width: 767px) {
+    .header-hero{
+        background-image: url('./images/stacy-telescope.jpeg');
+    }
 }
 
 .is-sticky {
@@ -46,7 +52,7 @@ h3 {
     width: 100%;
     z-index: 999;
     box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(255, 255, 255);
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -54,7 +60,7 @@ h3 {
 
 /*BANNER*/
 .banner-img {
-    background-image: url('./images/stacy-PierPlaza.jpeg');
+    background-image: url('./images/stacy-PierPlaza.jpg');
     height: 800px;
     background-size: cover;
     background-position-y: 50%;
@@ -63,7 +69,7 @@ h3 {
 }
 
 .banner-img-two {
-    background-image: url('./images/stacy-muralCrop.jpeg');
+    background-image: url('./images/stacy-beach2.jpg');
     height: 1000px;
     background-size: cover;
     background-position: top;
