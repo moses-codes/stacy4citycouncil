@@ -19,7 +19,7 @@ export default function Header() {
                 <li className="md:text-right md:mt-0 xs:text-center xs:mt-12">
                     <p>Paid for by Stacy Inman for City Council 2022</p>
                     <p>&#169; Stacy Inman for City Council 2022 </p>
-                    <p>site designed by moses-codess</p>
+                    <p>site designed by moses-codes</p>
                 </li>
             </ul>
 
