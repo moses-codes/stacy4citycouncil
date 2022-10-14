@@ -39,7 +39,7 @@ export default function Positions(props) {
                     </div>
                 </FadeInSection>
             </section>
-            <div className="text-left mx-auto w-3/4">
+            <div className="text-center mx-auto lg:w-2/4 lg:p-5 w-full m-3 bg-slate-200 p-3 rounded-xl">
                  <p className="py-3"><span className='text-3xl'>"Thank you to everyone </span>who came out to the League of Women Voters Candidate forum on Thursday, October 6, 2022. Four of the Five Candidates attended the well-run event.
                  Let’s think about Pismo Beach’s future and not its past.
                  If you were unable to attend in person – please watch the Candidate Forum, click the button below to view it.</p>
