@@ -11,6 +11,7 @@ import Positions from './components/Positions'
 import Join from './components/Join'
 import Footer from './components/Footer'
 import FadeInSection from './components/FadeInSection';
+import Updates from './components/Updates'
 
 import Events from './components/Events'
 
@@ -28,7 +29,7 @@ function App() {
         </div>
 
       
-        <Events></Events>
+        <Updates></Updates>
 
         <Positions
           id="positions"
