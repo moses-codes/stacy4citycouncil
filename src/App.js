@@ -12,6 +12,7 @@ import Join from './components/Join'
 import Footer from './components/Footer'
 import FadeInSection from './components/FadeInSection';
 import Updates from './components/Updates'
+import Status from "./components/Status"
 
 import Events from './components/Events'
 
@@ -28,8 +29,7 @@ function App() {
           <Hero />
         </div>
 
-      
-        <Updates></Updates>
+        <Status></Status>
 
         <Positions
           id="positions"
@@ -38,6 +38,7 @@ function App() {
         <FadeInSection>
           <Banner />
         </FadeInSection>
+        <Updates></Updates>
         <About
           content={Content.about}
         />
