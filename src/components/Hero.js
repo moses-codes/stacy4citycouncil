@@ -22,8 +22,8 @@ export default function Hero() {
     //     setDonateOn(prevSet => !prevSet)
     // }
     return (
-        <main id='hero' className={"h-screen block m-0"}>
-            <div className={"xl:p-36 xs:pt-32"}>
+        <main id='hero' className={"w-full min-h-screen max-h-auto pb-10 block m-0"}>
+            <div className={"xl:pt-36 xl:pl-36 pt-32"}>
                 <h1 className="xs:text-5xl md:text-8xl 
                 md:mb-5 xl:text-left xs:w-auto xs:text-center
                 xs:text-white xs:mb-2">Stacy Inman</h1>
@@ -32,13 +32,21 @@ export default function Hero() {
                     xl:text-left xs:text-center md:text-3xl  
                     xs:text-lg xs:text-white"
                 >For Pismo Beach City Council</h3>
-                
+
             </div>
-            <a className="block w-72 text-2xl xl:mt-8 text-white bg-red-700 py-2 px-10 rounded-xl mx-auto xs:mt-16 md:ml-36 text-center"
+            <a className="block w-72 text-2xl xl:my-4 text-white bg-red-700 py-2 px-10 rounded-xl mx-auto mt-16 md:ml-36 text-center"
                 target="_blank" rel="noopener noreferrer"
                 href='https://donorbox.org/stacy-inman-for-city-council'
 
             >Donation Site &gt;</a>
+            <div class="lg:w-96 w-3/4 bg-white bg-opacity-90 text-primary-content mx-auto lg:mt-5 md:ml-36 mt-72">
+                <div class="card-body text-black">
+                    <p className="font-semibold">“Inman … is smart, articulate, and well-versed on local issues, including water, which she ranks as her top priority… She also would be a good steward of taxpayer dollars… Inman is a highly qualified candidate who would be a breath of fresh air on the City Council.”</p>
+                    <p>San Luis Obispo Tribune, October 21, 2022, 10A</p>
+                </div>
+            </div>
+
+
 
 
         </main >

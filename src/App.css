@@ -4,6 +4,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+html {
+    width: full;
+}
+
 .donate-btn {
     border: solid #AF261A 3px;
     border-radius: 10px;
@@ -40,7 +44,7 @@ h3 {
 }
 
 @media screen and (max-width: 767px) {
-    .header-hero{
+    .header-hero {
         background-image: url('./images/stacy-telescope.jpeg');
     }
 }

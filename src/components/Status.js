@@ -17,7 +17,7 @@ export default function Status() {
             <figure className='lg:w-1/4'><img className='lg:h-96 w-auto h-72 rounded-lg' src={stacy} alt="Stacy posing with sam and pam clams" /></figure>
             <div className="card-body">
                 <h3 className='card-title mb-5'>A fun time at the 76th Annual Pismo Clam Festival! </h3>
-                <p className="text-xl leading-8">Stacy had the pleasure of sampling delicious wines at the Wine Walk, spectating the “Under the Sea” parade, and judging the Clam Chowder Cook-off! Congratulations to Ada's Fish House for winning this year’s clam chowder cook-off, and to Pismo Beach Chamber of Commerce for their first place “Under the Sea” float! </p>
+                <p className="lg:text-xl text-md leading-8">Stacy had the pleasure of sampling delicious wines at the Wine Walk, spectating the “Under the Sea” parade, and judging the Clam Chowder Cook-off! Congratulations to Ada's Fish House for winning this year’s clam chowder cook-off, and to Pismo Beach Chamber of Commerce for their first place “Under the Sea” float! </p>
             </div>
         </div>
 
