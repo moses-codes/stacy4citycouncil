@@ -77,6 +77,7 @@ const content = {
         },
     ],
     endorsementsList: [
+        'San Luis Obispo Tribune',
         'Dawn Ortiz-Legg, District 3 County Supervisor',
         'Jimmy Paulding, District 4 County Supervisor',
         'Effie McDermott',
