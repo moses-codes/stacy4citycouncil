@@ -15,7 +15,7 @@ export default function Hero() {
                 >For Pismo Beach City Council</h3>
 
             </div>
-            <a className="block w-72 text-2xl xl:my-4 text-white bg-red-700 py-2 px-5 rounded-xl mx-auto lg:mt-16 mt:5 text-center"
+            <a className="block w-72 text-2xl xl:my-4 text-white bg-red-700 py-2 px-5 rounded-xl mx-auto xl:ml-36 lg:mt-16 mt:5 text-center"
                 target="_blank" rel="noopener noreferrer"
                 href='https://donorbox.org/stacy-inman-for-city-council'
 
