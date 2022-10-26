@@ -22,7 +22,7 @@ export default function Hero() {
             >Donation Site &gt;</a>
             <div className="w-full bg-blue-900 bg-opacity-80 absolute bottom-0 xl:h-auto block lg:flex h-42">
                 <div className="p-2 lg:p-5 text-white lg:w-2/4 w-full leading-normal text-center lg:text-left">
-                    <h2 className="text-sm lg:text-2xl">Stacy is officially endorsed by the <span className='italic'>San Luis Obispo Tribune!</span></h2>
+                    <h2 className="text-sm lg:text-4xl lg:mt-5 px-5">Stacy is officially endorsed by the <span className='italic'>San Luis Obispo Tribune!</span></h2>
                 </div>
 
                 <div className='p-2 lg:p-5 text-white  lg:w-2/4 w-full text-center lg:text-left'>
