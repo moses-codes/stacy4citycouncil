@@ -55,7 +55,10 @@ const content = {
         stinger: 'Stacy’s characteristics of hard work, expertise and energy will strengthen our amazing City. ',
     },
     endorsements: [
-
+        {
+            quote: 'Inman … is smart, articulate, and well-versed on local issues, including water, which she ranks as her top priority… She also would be a good steward of taxpayer dollars… Inman is a highly qualified candidate who would be a breath of fresh air on the City Council.',
+            author: 'San Luis Obispo Tribune, October 21, 2022, 10A',
+        },
         {
             quote: 'Stacy is one of the most principled people I know.  She will bring a level of honesty and transparency to the Council which will ensure that you know she is looking out for your interests rather than simply her own. ',
             author: 'Adam Werner',

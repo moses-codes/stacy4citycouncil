@@ -43,7 +43,7 @@ h3 {
     background-position-y: -20%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1200px) {
     .header-hero {
         background-image: url('./images/stacy-telescope.jpeg');
     }
