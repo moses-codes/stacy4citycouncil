@@ -1,28 +1,25 @@
-import stacy from '../images/stacy-clams.jpg'
-import stacyChowder from '../images/stacy-chowder.jpg'
+import stacy from '../images/gettoknow.jpeg'
 
 export default function Status() {
     return (<div className="flex flex-col w-full lg:flex-row mt-10">
 
-        {/* <div className="card lg:card-side bg-base-100 h-96 shadow-xl mx-20">
-            <figure className='w-full'><img src={stacy} alt="Movie" className='' /></figure>
-            <div className='card-body'>
-                <h3 className='card-title mb-5'>A fun time at the 76th Annual Pismo Clam Festival! </h3>
-                <p className="text-xl leading-8">Stacy had the pleasure of sampling delicious wines at the Wine Walk, spectating the “Under the Sea” parade, and judging the Clam Chowder Cook-off! Congratulations to Ada's Fish House for winning this year’s clam chowder cook-off, and to Pismo Beach Chamber of Commerce for their first place “Under the Sea” float! </p>
-
-            </div>
-        </div> */}
 
         <div className="card lg:card-side bg-base-100 shadow-xl mx-10">
-            <figure className='lg:w-1/4'><img className='lg:h-96 w-auto h-72 rounded-lg' src={stacy} alt="Stacy posing with sam and pam clams" /></figure>
-            <div className="card-body">
-                <h3 className='card-title mb-5'>A fun time at the 76th Annual Pismo Clam Festival! </h3>
-                <p className="lg:text-xl text-md leading-8">Stacy had the pleasure of sampling delicious wines at the Wine Walk, spectating the “Under the Sea” parade, and judging the Clam Chowder Cook-off! Congratulations to Ada's Fish House for winning this year’s clam chowder cook-off, and to Pismo Beach Chamber of Commerce for their first place “Under the Sea” float! </p>
+            <img className='lg:w-2/4 w-full' src={stacy}></img>
+            <div className='p-10'>
+                <h2 className='text-5xl font-semibold mb-10'>October 27, 9:00am</h2>
+                <h2 className='text-4xl mb-10'>Get-to-know Livestream</h2>
+                <p className='text-lg lg:text-xl mb-10'>Join me for a livestream. I will cover several topics that relate to business, water, employee parking, residential challenges, city goals and more.
+                    Feel free to post questions from wherever your are viewing from. I will do my best to answer all of your questions and concerns.</p>
+                <a className="block w-40
+                md:text-2xl my-2 
+                text-white bg-red-700 py-2 px-10 
+                rounded-xl mx-auto xs:text-md text-center"
+                    target="_blank" rel="noopener noreferrer"
+                    href='https://www.facebook.com/events/1538560379960256?ref=newsfeed'
+                >Watch</a>
             </div>
         </div>
 
-        {/* <div className="divider lg:divider-horizontal">
-        </div>
-        <div className="grid flex-grow h-auto card bg-base-300 rounded-box place-items-center mx-5 p-5"><p>A fun time at this year’s Clam Festival! Sampled delicious wines at the Wine Walk, spectated the “Under the Sea”, and judged the Clam Chowder Cook-off! Congratulations to @Ada’s Fish House for winning this year’s clam chowder cook-off, and to @Pismo Beach Chamber of Commerce for their first place “Under the Sea” float!</p></div> */}
     </div>)
 }   
