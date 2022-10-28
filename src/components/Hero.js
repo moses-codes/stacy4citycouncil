@@ -15,17 +15,17 @@ export default function Hero() {
                 >For Pismo Beach City Council</h3>
 
             </div>
-            <a className="block w-72 text-2xl xl:my-4 text-white bg-red-700 py-2 px-5 rounded-xl mx-auto xl:ml-36 lg:mt-16 mt:5 text-center"
+            <a className="block w-64 text-2xl xl:my-4 text-white bg-red-700 py-2 px-5 rounded-xl mx-auto xl:ml-36 lg:mt-16 mt:5 text-center"
                 target="_blank" rel="noopener noreferrer"
                 href='https://donorbox.org/stacy-inman-for-city-council'
 
-            >Donation Site &gt;</a>
+            >Donate &gt;</a>
             <div className="w-full bg-blue-900 bg-opacity-80 absolute bottom-0 xl:h-auto block lg:flex h-42">
-                <div className="p-2 lg:p-5 text-white lg:w-2/4 w-full leading-normal text-center lg:text-left">
+                <div className="p-2 text-white lg:w-2/4 w-full leading-normal text-center lg:text-left">
                     <h2 className="text-sm lg:text-4xl lg:mt-5 px-5">Stacy is officially endorsed by the <span className='italic'>San Luis Obispo Tribune!</span></h2>
                 </div>
 
-                <div className='p-2 lg:p-5 text-white  lg:w-2/4 w-full text-center lg:text-left'>
+                <div className='p-2 text-white  lg:w-2/4 w-full text-center'>
                     <p className="font-semibold lg:text-xl text-sm">"Inman is a highly qualified candidate who would be a breath of fresh air on the City Council."</p>
                     <Link
                         smooth to='#endorsements'
