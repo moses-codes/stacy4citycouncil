@@ -85,6 +85,8 @@ const content = {
         'Jimmy Paulding, District 4 County Supervisor',
         'Effie McDermott',
         'Sheila Blake',
+        'Plumbers & Steamfitters Local Union 403',
+        'Southern California Pipe Trades District Council #16',
         'Adam Werner',
         'Mark & Sharyl Naftal',
         'Steve & Kathy Puglisi',
