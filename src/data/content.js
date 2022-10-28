@@ -85,7 +85,6 @@ const content = {
         'Jimmy Paulding, District 4 County Supervisor',
         'Effie McDermott',
         'Sheila Blake',
-        'International Brotherhood of Electrical Workers Local 639',
         'Adam Werner',
         'Mark & Sharyl Naftal',
         'Steve & Kathy Puglisi',
