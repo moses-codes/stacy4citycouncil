@@ -23,7 +23,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="App relative">
+      <div className="w-screen relative bg-white">
         <div className='header-hero'>
           <Header className='sticky top-0' />
           <Hero />
