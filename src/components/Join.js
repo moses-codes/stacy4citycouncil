@@ -12,7 +12,7 @@ export default function Join() {
 
     return (
         <footer>
-            <div className="flex text-center stacy-win xs:block xl:flex py-20" id='join'>
+            <div className="flex text-center stacy-win xs:block xl:flex py-20 text-black bg-white" id='join'>
 
                 <img className='inline-block w-3/5 rounded-xl m-12' src={stacyImg} alt='Stacy poses at a construction site' />
 

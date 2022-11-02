@@ -1,10 +1,10 @@
 import stacy from '../images/stacy-banner.jpeg'
 
 export default function Status() {
-    return (<div className="flex flex-col w-full lg:flex-row mt-10">
+    return (<div className="flex flex-col w-full lg:flex-row mt-0 bg-white">
 
 
-        <div className="card lg:card-side bg-base-100 shadow-xl mx-10">
+        <div className="card lg:card-side bg-base-100 shadow-xl mx-10 bg-white text-black">
             <img className='lg:w-2/4 w-full' src={stacy}></img>
             <div className='p-10'>
                 <h2 className='text-5xl font-semibold mb-10'>October 30, 12:00pm</h2>
