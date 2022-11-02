@@ -1,5 +1,4 @@
-import { React, useState } from "react"
-import img from "../images/stacy-banner.jpeg"
+import { React } from "react"
 export default function Events() {
   return (
     <div className="hero h-auto bg-slate-200 py-5 border-8 border-red-800 bg-white text-black">

@@ -8,9 +8,9 @@ export default function About(props) {
     const aboutContent = props.content
 
     return (
-        <div className="about-main pb-5 h-sauto">
+        <div className="about-main pb-5 h-auto">
             <section id='about' className=" lg:pt-10   lg:h-auto xs:block">
-            <img
+                <img
                     alt="Stacy Inman posing on Pismo Beach"
                     className="block rounded-xl h-auto lg:float-right lg:m-20 lg:w-4/12 mx-auto xs:w-4/5 xs:mt-5"
                     src={stacyInman} />
@@ -32,14 +32,14 @@ export default function About(props) {
                         <h3
                             className="about-stinger pb-16 xs:text-center lg:text-left">
                             {aboutContent.stinger}</h3>
-                            <Link smooth to='#join' className="donate-btn text-xl mb-10 mx-auto text-center">Join the Campaign</Link>
+                        <Link smooth to='#join' className="donate-btn text-xl mb-10 mx-auto text-center">Join the Campaign</Link>
                     </div>
                 </FadeInSection>
-                
+
 
             </section>
 
-           
+
 
         </div >
     )
