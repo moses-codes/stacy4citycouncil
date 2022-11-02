@@ -2,7 +2,7 @@ import { React, useState } from "react"
 import img from "../images/stacy-banner.jpeg"
 export default function Events() {
   return (
-    <div className="hero h-auto bg-slate-200 py-5 border-8 border-red-800 ">
+    <div className="hero h-auto bg-slate-200 py-5 border-8 border-red-800 bg-white text-black">
       <div className="hero-content flex-col lg:flex-row">
         <div>
           <div className="xs:text-center lg:text-left">

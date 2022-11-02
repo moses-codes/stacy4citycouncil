@@ -44,7 +44,7 @@ export default function Endorsements(props) {
         </div>
     )
     return (
-        <section id='endorsements' className='endorsements-main py-32 border-b'>
+        <section id='endorsements' className='endorsements-main py-32 border-b bg-white text-black'>
             <h2 className="mb-15">Endorsements</h2>
             <div className="lg:flex xs:block flex-wrap justify-around px-12 py-12 border-b">
                 {pageContent}
@@ -67,11 +67,11 @@ export default function Endorsements(props) {
                 </section>
             </FadeInSection>
             <img src={stacySign}
-                    className='h-full rounded-xl lg:w-2/5 lg:ml:20 lg:w-5/12 xs:w-2/4 m-20 xl:mx-10 xs:mx-auto md:float-left'
-                    alt='A lawn sign that reads vote for Stacy Inman'
-                ></img>
+                className='h-full rounded-xl lg:w-2/5 lg:ml:20 lg:w-5/12 xs:w-2/4 m-20 xl:mx-10 xs:mx-auto md:float-left'
+                alt='A lawn sign that reads vote for Stacy Inman'
+            ></img>
             <div className="xs:block xl:flex justify-between mt-12">
-                
+
                 <FadeInSection className='lg:w-auto'>
                     <div className="w-auto mx-auto">
                         <h3 className="italic font-bold xs:text-center mb-6 lg:mt-0 xs:mt-10">Stacy Inman is proudly endorsed by</h3>

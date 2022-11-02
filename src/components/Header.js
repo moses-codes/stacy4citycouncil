@@ -27,12 +27,12 @@ export default function Header() {
     };
 
     const dropDownLinks = (
-        
+
         //   <li><a>Item 1</a></li>
         //   <li><a>Item 2</a></li>
         //   <li><a>Item 3</a></li>
-        
-          <ul className="menu menu-compact lg:menu-normal bg-base-100 w-56 p-2 rounded-box">
+
+        <ul className="menu menu-compact lg:menu-normal bg-base-100 w-56 p-2 rounded-box">
             <li><Link onClick={handleToggle} smooth to='#positions' className="navlink block p-6 bg-gray-300">Positions</Link></li>
             <li><Link onClick={handleToggle} smooth to='#about' className="navlink block p-6 bg-gray-300" >About</Link></li>
             <li><Link onClick={handleToggle} smooth to='#endorsements' className="navlink block p-6 bg-gray-300 ">Endorsements</Link></li>
@@ -41,7 +41,7 @@ export default function Header() {
     )
 
     return (
-        <header className=" h-24 text-center xs:px-4 text-lg w-full is-sticky"
+        <header className=" h-24 text-center xs:px-4 text-lg w-full is-sticky text-black"
         >
 
             <ul className="h-24 nav-btns text-2xl mx-auto flex md:justify-around xs:justify-start">
