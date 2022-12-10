@@ -7,12 +7,12 @@ export default function Hero() {
             <div className={"xl:pt-36 xl:pl-36 pt-32"}>
                 <h1 className="xs:text-5xl md:text-8xl 
                 md:mb-5 xl:text-left xs:w-auto xs:text-center
-                xs:text-white xs:mb-2">Stacy Inman</h1>
+                xs:text-white xs:mb-2">Stacy Inman won!</h1>
                 <h3
                     className="xs:mb-0 md:md-36 md:text-black
                     xl:text-left xs:text-center md:text-3xl  
                     xs:text-lg xs:text-white"
-                >Candidate Elect, Pismo Beach City Council</h3>
+                >Pismo Beach City Council Member Elect</h3>
 
             </div>
             <a className="block w-64 text-2xl xl:my-4 text-white bg-red-700 py-2 px-5 rounded-xl mx-auto xl:ml-36 lg:mt-16 mt:5 text-center"

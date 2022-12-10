@@ -82,7 +82,7 @@ const content = {
     endorsementsList: [
         'San Luis Obispo Tribune',
         'Dawn Ortiz-Legg, District 3 County Supervisor',
-        'Jimmy Paulding, District 4 County Supervisor',
+        'Jimmy Paulding, District 4 County Supervisor Elect',
         'Effie McDermott',
         'Sheila Blake',
         'Plumbers & Steamfitters Local Union 403',

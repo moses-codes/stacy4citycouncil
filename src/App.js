@@ -38,7 +38,6 @@ function App() {
         <FadeInSection>
           <Banner />
         </FadeInSection>
-        <Updates></Updates>
         <About
           content={Content.about}
         />
