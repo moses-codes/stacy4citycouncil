@@ -1,10 +1,16 @@
-import stacy from '../images/stacy-banner.jpeg'
+import stacy from '../images/stacy_plate.png'
+import stacyFam from '../images/stacy_fam.png'
+import stacyJorge from '../images/stacy_jorgeJim.png'
+import stacyShake from '../images/stacy_shake.png'
 
 export default function Status() {
-    return (<div className="flex flex-col w-full lg:flex-row mt-0 bg-white">
+    return (<div className="w-full mt-0 bg-white mt-10 text-black">
+
+        <h2 className='lg:text-5xl text-3xl font-semibold mb-2 lg:ml-24 text-center'>Photos from the swearing-in ceremony</h2>
+        <h2 className='text-2xl mb-10 lg:ml-24 text-center'>December 12, 2022</h2>
 
 
-        <div className="card lg:card-side bg-base-100 shadow-xl mx-10 bg-white text-black mt-10">
+        {/* <div className="card lg:card-side bg-base-100 shadow-xl mx-10 bg-white text-black mt-10">
             <img className='lg:h-96 lg:w-auto w-full ' src={stacy} alt='Stacy in a formal blue top.'></img>
             <div className='p-5 bg-white'>
                 <h2 className='lg:text-5xl text-3xl font-semibold mb-2'>Join us for the wearing-in ceremony</h2>
@@ -16,7 +22,36 @@ export default function Status() {
                     href='https://us02web.zoom.us/j/84823715585'
                 >Watch</a>
             </div>
+        </div> */}
+
+        <div className='lg:flex mx-5 justify-center'>
+            <div className="lg:w-1/4 w-full lg:mx-10">
+                <img src={stacy}
+                    className='rounded w-full'
+                    alt="Stacy Inman at her City Council seat and new name plate" />
+                <p
+                    className="mb-10"
+                >Stacy Inman at her City Council seat and new name plate.</p>
+                <img
+                    src={stacyJorge}
+                    className='rounded'
+                    alt="image" />
+
+                <p>Standing with Assistant City Manager Jorge Garcia and City Manager Jim Lewis.</p>
+            </div>
+            <div className="lg:w-2/4 w-full lg:mx-2">
+                <img src={stacyFam}
+                    className='rounded'
+                    alt="Stacy Inman poses around her council seat with three family members." />
+
+                <p>Stacy Inman with her family.</p>
+                <img src={stacyShake}
+                    className='rounded mt-3'
+                    alt="Shaking hands with Mayor Ed Waage." />
+                <p>Shaking hands with Mayor Ed Waage.</p>
+            </div>
         </div>
+
 
     </div >)
 }   
