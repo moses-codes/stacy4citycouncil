@@ -4,7 +4,7 @@ import stacyJorge from '../images/stacy_jorgeJim.png'
 import stacyShake from '../images/stacy_shake.png'
 
 export default function Status() {
-    return (<div className="w-full mt-0 bg-white mt-10 text-black">
+    return (<div className="w-full mt-0 bg-white mt-10 text-black bg-gray-300">
 
         <h2 className='lg:text-5xl text-3xl font-semibold mb-2 lg:ml-24 text-center'>Photos from the swearing-in ceremony</h2>
         <h2 className='text-2xl mb-10 lg:ml-24 text-center'>December 12, 2022</h2>
