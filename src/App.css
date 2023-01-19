@@ -35,12 +35,11 @@ h3 {
     font-size: 2rem;
 }
 
-.header-hero {
-    background-image: url('./images/stacy-beach.jpg');
+#hero {
+    background-image: url('./images/stacy-PierPlaza.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-position-y: -20%;
 }
 
 @media screen and (max-width: 1200px) {
