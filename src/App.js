@@ -25,11 +25,11 @@ function App() {
     <BrowserRouter>
       <div className="w-screen relative bg-white">
         <div className='header-hero'>
-          <Header className='sticky top-0' />
+          {/* <Header className='sticky top-0' /> */}
           <Hero />
         </div>
 
-        <Status></Status>
+        {/* <Status></Status>
 
         <Positions
           id="positions"
@@ -53,7 +53,7 @@ function App() {
 
         <FadeInSection>
           <Join />
-        </FadeInSection>
+        </FadeInSection> */}
 
         <Footer />
       </div>

@@ -12,7 +12,7 @@ export default function Hero() {
                     className="xs:mb-0 md:md-36 md:text-black
                     xl:text-left xs:text-center md:text-3xl  
                     xs:text-lg xs:text-white"
-                >Pismo Beach City Council Member Elect</h3>
+                >Pismo Beach City Council Member</h3>
 
             </div>
             <a className="block w-64 text-2xl xl:my-4 text-white bg-red-700 py-2 px-5 rounded-xl mx-auto xl:ml-36 lg:mt-16 mt:5 text-center"

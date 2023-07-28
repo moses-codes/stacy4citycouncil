@@ -40,7 +40,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-position-y: -20%;
+    /* background-position-y: -20%; */
 }
 
 @media screen and (max-width: 1200px) {
